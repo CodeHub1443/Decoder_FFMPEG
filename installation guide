@@ -1,0 +1,32 @@
+Python: Make sure you have Python installed on your system. You can download the latest version of Python from the official website (https://www.python.org/downloads/) and follow the installation instructions specific to your operating system.
+
+FFmpeg: FFmpeg is required for video processing in this code. Follow these steps to install FFmpeg:
+
+a. Download FFmpeg from main
+
+b. Extract the downloaded file to a specific directory on your system.
+
+c. Add the path to the FFmpeg executable to the system's PATH environment variable. You can do this by opening a command prompt (or terminal) and running the following command:
+
+setx /m PATH "<FFmpeg_path>;%PATH%"
+
+
+Replace <FFmpeg_path> with the actual path where FFmpeg is installed.
+
+Install Required Python Packages: Open a command prompt (or terminal) and navigate to the directory where the code is located. Run the following command to install the required Python packages:
+pip install numpy PyQt5
+This will install the necessary packages for running the code.
+
+Configure RTSP Links: Open the config.json file in a text editor and update the streams section with the RTSP links you want to display. Make sure the file is saved after making the changes.
+
+Run the Code: Open a command prompt (or terminal) and navigate to the directory where the code is located. Run the following command to start the application:
+
+python <filename.py>
+
+Replace <filename.py> with the actual name of the Python file containing the code.
+
+Usage: The application window will open, displaying the video streams from the specified RTSP links. Each video stream will be displayed in a separate window within the main application window.
+
+Exiting the Application: To exit the application, simply close the application window. This will terminate the processes and release the resources.
+
+By following these installation guidelines, you will be able to set up the necessary dependencies and run the provided code for displaying video streams from RTSP links. Enjoy exploring the capabilities of computer vision and video processing!
